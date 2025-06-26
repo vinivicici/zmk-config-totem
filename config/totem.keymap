@@ -270,19 +270,18 @@ behaviors {
 
 
     macros {
-        gif: gif {
-            label = "giphy";
+        ctrl_click: ctrl_click {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LSHFT>,
+                <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp N2>,
+                <&mkp MB1>,
                 <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
+                <&kp LCTRL>;
+
+            label = "CTRL_CLICK";
         };
     };
 
