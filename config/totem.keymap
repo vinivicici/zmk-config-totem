@@ -177,19 +177,14 @@
             require-prior-idle-ms = <150>;
         };
 
-        ralt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <16 17>;
-        };
-
         paren_l {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <27 28>;
+            key-positions = <16 17>;
         };
 
         parent_r {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <28 29>;
+            key-positions = <18 17>;
         };
 
         leftbrace {
@@ -313,7 +308,7 @@
         &trans  &trans  &trans  &trans  &trans    &kp LC(A)       &kp LC(V)  &kp LC(C)       &kp LC(X)          &kp LC(Z)
         &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT
 &trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &home__    &end__          &mt LS(HOME) HOME  &mt LS(END) END  &trans
-                        &trans  &trans  &trans    &trans          &trans     &trans
+                        &trans  &trans  &trans    &trans          &trans     &kp DEL
             >;
         };
 
