@@ -306,10 +306,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q            &kp W            &kp E    &kp R      &kp T      &kp Y      &kp U     &kp I      &kp O    &kp P
-           &aml LEFT_WIN A  &aml LEFT_ALT S  &kp D    &kp F      &kp G      &kp H      &kp J     &kp K      &kp L    &kp SEMI
+           &kp Q            &kp W            &kp E    &alt_f4      &kp T      &kp Y      &kp U     &kp I      &kp O    &kp P
+           &aml LEFT_WIN A  &aml LEFT_ALT S  &aml LCTRL D  &s_left LEFT_SHIFT F      &kp G      &kp H      &LEFTj                  &DOWNk     &UPl        &RIGHTtick
 &kp LSHFT  &kp Z            &kp X            &kp C    &kp V      &kp B      &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                                             &kp ESC  &kp SPACE  &kp TAB    &kp ENTER  &kp BSPC  &kp RALT
+                                             &kp ESC  &kp SPACE  &kp TAB    &kp ENTER  &backspace 2 BACKSPACE  &kp RALT
             >;
         };
 
@@ -320,9 +320,9 @@
 
         navi {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &kp LC(A)       &kp LC(V)  &kp LC(C)       &kp LC(X)          &kp LC(Z)
+        &trans  &trans  &trans  &trans  &trans    &msc SCRL_UP    &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_DOWN  &home__    &end__          &mt LS(HOME) HOME  &mt LS(END) END
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
