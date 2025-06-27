@@ -226,7 +226,7 @@
 
         excl {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <0 1>;
+            key-positions = <11 10>;
         };
 
         del {
