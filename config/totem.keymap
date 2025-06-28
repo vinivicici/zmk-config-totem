@@ -231,7 +231,7 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <12 11>;
+            key-positions = <2 13>;
         };
 
         capslock {
