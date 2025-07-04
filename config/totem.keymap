@@ -236,7 +236,7 @@
 
         capslock {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <13 16>;
+            key-positions = <13 16 12 17>;
         };
     };
 
