@@ -238,6 +238,11 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <13 16 12 17>;
         };
+
+        deep_sleep {
+            bindings = <&soft_off>;
+            key-positions = <32 37>;
+        };
     };
 
     macros {
