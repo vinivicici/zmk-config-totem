@@ -23,6 +23,16 @@
 };
 
 / {
+    kscan: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        diode-direction = "col2row";
+        row-gpios = <...>;
+        col-gpios = <...>;
+        wakeup-source;
+    };
+};
+
+/ {
     behaviors {
         s_left: s_left {
             compatible = "zmk,behavior-hold-tap";
