@@ -243,6 +243,16 @@
             bindings = <&soft_off>;
             key-positions = <32 37>;
         };
+
+        boot_left {
+            bindings = <&bootloader>;
+            key-positions = <32 33 34>;
+        };
+
+        boot_right {
+            bindings = <&bootloader>;
+            key-positions = <37 36 35>;
+        };
     };
 
     macros {
