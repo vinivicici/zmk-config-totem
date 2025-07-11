@@ -333,10 +333,10 @@
 
         one_hand {
             bindings = <
-        &trans    &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans
-        &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans        &trans     &trans    &trans  &trans  &trans
+        &trans    &kp C_VOLUME_DOWN  &kp C_MUTE    &kp C_VOLUME_UP  &trans    &trans  &trans  &trans  &trans  &trans
+        &kp LEFT  &kp DOWN           &kp UP_ARROW  &kp RIGHT        &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans             &trans        &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                     &trans        &trans           &trans    &trans  &trans  &trans
             >;
         };
     };
