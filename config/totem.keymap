@@ -243,6 +243,11 @@
             bindings = <&soft_off>;
             key-positions = <32 37>;
         };
+
+        return {
+            bindings = <&kp ENTER>;
+            key-positions = <32 2>;
+        };
     };
 
     macros {
