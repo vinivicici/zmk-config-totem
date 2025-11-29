@@ -345,7 +345,7 @@
         SYS {
             bindings = <
              &kp F10  &kp F1  &kp F2  &kp F3  &kp PRINTSCREEN    &trans          &kp C_VOL_DN    &kp C_MUTE      &kp C_VOLUME_UP  &trans
-             &kp F11  &kp F4  &kp F5  &kp F6  &bootloader        &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP     &mmv MOVE_RIGHT
+             &kp F11  &kp F4  &kp F5  &kp F6  &studio_unlock     &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP     &mmv MOVE_RIGHT
 &bootloader  &kp F12  &kp F7  &kp F8  &kp F9  &bt BT_CLR         &msc SCRL_DOWN  &ctrl_click     &trans          &mkp MB4         &trans           &trans
                               &trans  &trans  &trans             &mkp MB1        &mkp MB2        &trans
             >;
