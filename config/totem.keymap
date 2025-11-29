@@ -172,6 +172,7 @@
         paren_l {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <11 12>;
+            layers = <0 2 1 3 4>;
         };
 
         parent_r {
