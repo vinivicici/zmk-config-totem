@@ -264,6 +264,11 @@
             key-positions = <32 2>;
             layers = <0 2 1 3 4>;
         };
+
+        game_mode {
+            bindings = <&tog 6>;
+            key-positions = <20 31>;
+        };
     };
 
     macros {
